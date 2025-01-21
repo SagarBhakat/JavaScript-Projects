@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-color: rgb(0, 0, 0); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 100vh;
+}
+
+.container h1 {
+    /* color: white; */
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+.refresh-btn {
+    padding: 12px 20px;
+    font-size: 20px;
+    background-color: rgb(238, 254, 61);
+    font-weight: bold;
+}
+
+.quote-wrapper .quote-item {
+    border: 2px solid rgb(74, 10, 194);
+    padding: 25px;
+    font-size: 25px;
+    background-color: burlywood;
+}
+
+.loader {
+    font-size: 40px;
+    display: none;
+    font-weight: bolder;
+}
+
+.loader.show {
+    display: block;
+}
+
+.quote-wrapper.hide {
+    display: none;
+}
