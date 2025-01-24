@@ -9,6 +9,15 @@ generateQRBtn.addEventListener("click", () => {
 
 })
 
+
+qrTextInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        validateInputField();
+
+    }
+
+})
+
 function validateInputField() {
     console.log(qrTextInput.value);
     if (qrTextInput.value.trim().length > 0) {
