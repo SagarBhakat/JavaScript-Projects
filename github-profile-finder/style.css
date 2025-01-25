@@ -1,0 +1,11 @@
+.loader {
+    display: none;
+}
+
+.loader.show {
+    display: block;
+}
+
+.github-profile-details.hide {
+    display: none;
+}
