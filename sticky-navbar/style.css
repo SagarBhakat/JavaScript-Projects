@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 215, 178);
+    padding: 15px;
+}
+
+.header {
+    background-color: rgb(199, 184, 54);
+    text-align: center;
+    padding: 50px;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    gap: 20px;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    font-size: 25px;
+}
+
+.fix-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
